@@ -1,0 +1,18 @@
+.swiper-container {
+    width: 100%;
+    max-width: 800px; /* Limit the max width of the carousel */
+    margin: 0 auto; /* Center the Swiper container */
+    /* background-color: black; */
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide-image {
+    max-width: 100%; /* Make sure the image doesn't overflow */
+    height: auto; /* Keep the image aspect ratio */
+    object-fit: contain; /* Ensure the image fits inside the container without stretching */
+}

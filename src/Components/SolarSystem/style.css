@@ -1,0 +1,58 @@
+.container{
+    width: 50vb;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sun{
+position: relative;
+inset: 0;
+width: 80px;
+height: 80px;
+border-radius: 50%;
+background-color: rgb(255, 255, 0);
+box-shadow: 0 0 40px yellow;
+}
+
+.earth, 
+.moon{
+    position: absolute ;
+    border-style: solid;
+border-color: white transparent transparent transparent;
+border-width: 2px 2px 0 0;
+border-radius: 50%;
+}
+
+
+.earth{
+    height: 480px;
+    width: 480px;
+}
+
+.earth::before,
+.moon::before{
+    content: '';
+    position: absolute;
+    border-radius: 50%;
+    
+
+}
+
+.earth::before{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(0, 119, 255);
+
+
+}
+
+.moon::before{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: #bfb4b4;
+    left: 80px;
+}
