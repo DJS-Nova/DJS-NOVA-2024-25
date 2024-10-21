@@ -33,11 +33,11 @@ function Magazine() {
       <div className='flex items-start justify-center w-full min-h-screen text-white magazineColor'>
         <span  className='flex items-center justify-start gap-10 p-10 flex-col sm:flex-row'>
           {images.map((image) => (
-            <a className='w-1/5 h-1/5 scaling' href={image.link}>
+            <a className= ' w-full h-3/5 sm:w-1/5 sm:h-1/5 scaling ' href={image.link}>
               <div data-aos="fade-down" key={image.id} className=" flex  flex-col items-center justify-center gap-3">
                 <img src={image.img} alt={image.title} className="w-full h-full" />
                 <h1 className='text-2xl font-semibold'>{image.title}</h1>
-                <span className='text-lg'>{image.description}</span>
+                <span className='sm:text-lg text-md'>{image.description}</span>
               </div>
             </a>
           ))}
