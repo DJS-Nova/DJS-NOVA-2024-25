@@ -71,6 +71,8 @@ const Navbar = () => {
                     <div className="px-2 pt-2 pb-3 space-y-1">
                         <NavLink to="/" className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Home</NavLink>
                         <NavLink to="/events" className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Events</NavLink>
+                        <NavLink to="/magazine" className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Magazine</NavLink>
+                        <NavLink to="/team" className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Team</NavLink>
                         <NavLink to="/contact" className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Contact Us</NavLink>
                     </div>
                 </div>

@@ -1,8 +1,15 @@
 import ButtonRoot from '../Components/ButtonRoot'
+import toast from 'react-hot-toast';
 import react from 'react';
+import { RestaurantRounded } from '@mui/icons-material';
 
 
 export default function Form() {
+
+    const handler = () => {
+        console.log("ahjcsaerg")
+        toast.success("Query sent successfully")
+    }
     return (
         <div className='flex flex-col items-center justify-center gap-9'>
             <h1 className='text-3xl font-semibold border-b-2 rounded-lg px-2 py-3'>Send A Message.</h1>
@@ -24,8 +31,8 @@ export default function Form() {
                     required
                     className='px-4 py-2 rounded-lg text-white border-white bg-black border-b-2'
                 ></textarea>
-                <div className='hover:cursor-pointer'>
-                    <ButtonRoot />
+                <div className='hover:cursor-pointer' onClick={handler}>
+                    <ButtonRoot label={"Submit"}/>
                 </div>
             </div>
         </div>

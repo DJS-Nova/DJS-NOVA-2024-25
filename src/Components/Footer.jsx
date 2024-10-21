@@ -9,7 +9,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 function Footer() {
   return (
     <>
-      <div className='w-100 min-h-full bg-black text-white border border-white  flex sm:flex-row gap-4  flex-col items-center justify-center sm:items-center sm:justify-between px-9 py-10'   >
+      <div className='w-100 min-h-full bg-black text-white border border-white  flex sm:flex-row gap-4  flex-col items-center justify-center sm:items-center sm:justify-between px-9 py-10 '   >
         <div className=' flex items-center justify-center flex-col gap-3'>
           <div className='font-semibold text-2xl'><Link to={'/'} >DJS NOVA</Link></div>
           <div className=' text-slate-300'>The official astronomy and astrophysics <br />club of the college</div>

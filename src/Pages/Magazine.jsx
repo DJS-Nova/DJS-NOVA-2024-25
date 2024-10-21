@@ -31,7 +31,7 @@ function Magazine() {
   return (
     <>
       <div className='flex items-start justify-center w-full min-h-screen text-white magazineColor'>
-        <span  className='flex items-center justify-start gap-10 p-10 flex:col sm:flex-row'>
+        <span  className='flex items-center justify-start gap-10 p-10 flex-col sm:flex-row'>
           {images.map((image) => (
             <a className='w-1/5 h-1/5 scaling' href={image.link}>
               <div data-aos="fade-down" key={image.id} className=" flex  flex-col items-center justify-center gap-3">

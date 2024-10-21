@@ -9,7 +9,7 @@ function Contact() {
     }, [])
     return (
         <>
-            <div className='sm:flex sm:items-center sm:justify-around w-full min-h-max text-white bg-black p-5 block'>
+            <div className='sm:flex sm:items-center sm:justify-around w-full min-h-max text-white bg-black p-5 pb-8 block'>
 
                 <div className='sm:w-1/2 w-full flex sm:flex-col flex-row gap-3 items-center justify-center '>
                     <Form />

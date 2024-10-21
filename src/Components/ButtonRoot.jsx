@@ -25,8 +25,8 @@ const SvgButton = React.forwardRef(function SvgButton(props, ref) {
     return <Button {...props} slots={{ root: CustomButtonRoot }} ref={ref} />;
 });
 
-export default function UnstyledButtonCustom() {
-    return <SvgButton>Submit</SvgButton>;
+export default function UnstyledButtonCustom({label}) {
+  return <SvgButton>{ label}</SvgButton>;
 }
 
 const blue = {

@@ -7,6 +7,7 @@ import Footer from './Components/Footer'
 import Event from './Pages/Event'
 import Team from './Pages/Team'
 import Contact from './Pages/Contact'
+import { Toaster } from 'react-hot-toast';
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
           <Route />
         </Routes>
         <Footer />
+        <Toaster />
       </Router>
 
     </>
