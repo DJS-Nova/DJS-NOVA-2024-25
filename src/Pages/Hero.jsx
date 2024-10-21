@@ -4,6 +4,7 @@ import AOS from 'aos'
 import 'aos/dist/aos.css'
 import '../index.css'
 import Globe from '../Components/SolarSystem/Globe'
+import { Bg } from '../Components/Bg/Bg'
 
 
 function Hero() {
@@ -22,9 +23,11 @@ function Hero() {
     }, [])
     return (
         <div className='bgcolor min-h-max  w-full z-0' id='Home'>
+            <Bg/>
             <div className='block sm:flex'>
                 <div className='w-100 sm:w-1/2 min-h-screen flex items-start justify-center sm:mt-28 flex-wrap ' >
                     <div>
+
                         <div data-aos="fade-down" className='text-2xl font-medium  px-5 ' >
                             <h1 className='pb-8 text-4xl font-bold text-white'>DJS NOVA</h1>
                             <h1 className='text-white'>The official <br /><span className='text-orange-200'>{astronomy}</span><Cursor /> <br />and <span className='text-amber-200'>{astrophysics}</span><Cursor /> <br />club of DJSCE.</h1>
@@ -36,8 +39,8 @@ function Hero() {
 
                 </div>
             </div>
-            <section className='relative'>
-                <div class="custom-shape-divider-top-1722748952">
+            <section className='relative '>
+                <div class="custom-shape-divider-top-1722748952 hidden sm:block ">
                     <svg
                         data-name="Layer 1"
                         xmlns="http://www.w3.org/2000/svg"

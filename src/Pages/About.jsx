@@ -16,13 +16,14 @@ function About() {
                         About Us
                     </div>
                 <div className='sm:flex min-h-fit  sm:items-center sm:justify-center text-xl px-5 sm:gap-4 block py-5' >
-                    <div className='border sm:w-1/2 w-full border-black rounded-2xl my-3 px-5 py-5 text-center shadow-lg shadow-slate-950' data-aos="fade-up">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic asperiores animi provident omnis deserunt at reiciendis commodi! Porro pariatur, cumque eius eaque iste, odit corporis cupiditate fuga dolor dolore assumenda?</div>
+                    <div className='border sm:w-1/2 w-full border-black rounded-2xl my-3 px-5 py-5 text-center shadow-lg shadow-slate-950' data-aos="fade-up">DJS Nova, the official Astronomy and Astrophysics Club of D. J. Sanghvi College of Engineering, brings together students with a shared passion for the cosmos. The club hosts stargazing events, workshops, and expert talks, with contributions from all departments, fostering a collaborative learning environment.
+</div>
                     <img className=' size' data-aos="fade-up" src="https://djsnova.netlify.app/static/media/6.5a56199010621dc1041b.jpg" alt="" />
                     {/* <div className='border w-1/2 border-black rounded-2xl my-3 px-5 py-5  shadow-lg shadow-slate-950'  data-aos="fade-right">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur odit ipsa repudiandae libero illum. Necessitatibus deserunt doloremque a nulla inventore. Expedita, eos? Nulla a nam sunt, quae dolore sed impedit.</div> */}
                 </div>
                 <div className='sm:flex min-h-fit  sm:items-center sm:justify-center text-xl px-5 sm:gap-4 block py-5' >
                     <img className=' size' data-aos="fade-up" src="https://djsnova.netlify.app/static/media/6.5a56199010621dc1041b.jpg" alt="" />
-                    <div className='border sm:w-1/2 w-full border-black rounded-2xl my-3 px-5 py-5 text-center shadow-lg shadow-slate-950' data-aos="fade-up">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic asperiores animi provident omnis deserunt at reiciendis commodi! Porro pariatur, cumque eius eaque iste, odit corporis cupiditate fuga dolor dolore assumenda?</div>
+                    <div className='border sm:w-1/2 w-full border-black rounded-2xl my-3 px-5 py-5 text-center shadow-lg shadow-slate-950' data-aos="fade-up">The club also takes part in international competitions like NASA Space Apps and IAAC, giving members the chance to apply their knowledge to real-world challenges. By participating in these prestigious events, students not only hone their skills but also represent their college on a global platform.</div>
                     {/* <div className='border w-1/2 border-black rounded-2xl my-3 px-5 py-5  shadow-lg shadow-slate-950'  data-aos="fade-right">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur odit ipsa repudiandae libero illum. Necessitatibus deserunt doloremque a nulla inventore. Expedita, eos? Nulla a nam sunt, quae dolore sed impedit.</div> */}
                 </div>
                 {/* <section className='relative'>

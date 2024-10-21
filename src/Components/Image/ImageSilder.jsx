@@ -4,11 +4,14 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import { Pagination, Navigation } from 'swiper/modules';
+import slide1 from './slide1.png'
+import slide2 from './slide2.png'
+import slide3 from './slide3.png'
 import './CarouselSlider.css' // Import external CSS file for custom styles
 
 const CarouselSwiper = () => {
     return (
-        <div className="swiper-container p-10 bg-slate-700 flex items-center justify-center" >
+        <div className="swiper-container p-10 transparent flex items-center justify-center w-full" >
             <Swiper
                 modules={[Pagination, Navigation]}
                 spaceBetween={30}
@@ -18,16 +21,13 @@ const CarouselSwiper = () => {
                 loop={true}
             >
                 <SwiperSlide>
-                    <img src="https://via.placeholder.com/600x400?text=Slide+1" alt="Slide 1" className="swiper-slide-image" />
+                    <img src={slide1} alt="Slide 2" className="swiper-slide-image" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src="https://via.placeholder.com/600x400?text=Slide+2" alt="Slide 2" className="swiper-slide-image" />
+                    <img src={slide2} alt="Slide 3" className="swiper-slide-image" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src="https://via.placeholder.com/600x400?text=Slide+3" alt="Slide 3" className="swiper-slide-image" />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img src="https://via.placeholder.com/600x400?text=Slide+4" alt="Slide 4" className="swiper-slide-image" />
+                    <img src={slide3} alt="Slide 4" className="swiper-slide-image" />
                 </SwiperSlide>
             </Swiper>
         </div>

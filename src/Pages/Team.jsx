@@ -3,6 +3,8 @@ import Aos from 'aos'
 import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import Core from '../Components/Team2023/Core';
+import Ankita from '../Components/members/images/ankita.jpg'
+import Member from '../Components/members/Member';
 
 
 function Team() {
@@ -24,7 +26,10 @@ function Team() {
     return (
         <>
             <div className='py-5 flex flex-col gap-5 items-center justify-start w-full min-h-screen text-white teamPageColor'>
-                <div  className='flex flex-col items-center justify-center gap-4'>
+                <div>
+                    <Member img={Ankita} altText={"Dr. Ankita Jain"} name={"Dr. Ankita Jain"} role={"Faculty Co-ordinator"}/>
+</div>
+                <div className='flex flex-col items-center justify-center gap-4'>
                     <span className='border px-5 py-2 rounded-full border-white text-3xl hover:cursor-pointer flex items-center' onClick={viewHandler1}>
                         Team 2024{isVisible1 ? <KeyboardArrowDownIcon /> : <KeyboardArrowRightIcon />}
                     </span>

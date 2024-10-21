@@ -9,7 +9,7 @@ function Core() {
   return (
     <>
       <div className='flex flex-col gap-9 items-center'>
-        <Member img={janhvi} altText={"janhvi"} name={"Janhvi"} />
+        <Member img={janhvi} altText={"janhvi"} name={"Janhvi"} linkedin={"https://www.linkedin.com/in/janhvi-gandhi19/"} role={"Chairperson"}/>
         <div className='flex sm:flex-row flex-col gap-8'>
           <Member img={piyush} altText={"Piyush"} name={"Piyush"} />
           <Member img={jainil} altText={"Piyush"} name="Jainil" />

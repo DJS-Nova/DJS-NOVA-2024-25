@@ -54,14 +54,15 @@ const Navbar = () => {
                             <div className="flex space-x-4  items-center">
                                 <NavLink to="/" className={({ isActive }) =>  `text-gray-300 links border-b-4  border-slate-800   px-3 py-2 rounded-md  font-medium ${isActive ? `border-white text-white` :`hover:border-white   hover:text-white`}`}>Home</NavLink>
                                 <NavLink to="/events" className={({ isActive }) => `text-gray-300 links border-b-4  border-slate-800   px-3 py-2 rounded-md  font-medium ${isActive ? `border-white text-white` : `hover:border-white   hover:text-white`}`}>Events</NavLink>
-                                <NavLink to="/team" className={({ isActive }) => `text-gray-300 links border-b-4  border-slate-800   px-3 py-2 rounded-md  font-medium ${isActive ? `border-white text-white` : `hover:border-white   hover:text-white`}`}>Team</NavLink>
+                                {/* <NavLink to="/team" className={({ isActive }) => `text-gray-300 links border-b-4  border-slate-800   px-3 py-2 rounded-md  font-medium ${isActive ? `border-white text-white` : `hover:border-white   hover:text-white`}`}>Team</NavLink> */}
                                 <NavLink to="/magazine" className={({ isActive }) => `text-gray-300 links border-b-4  border-slate-800   px-3 py-2 rounded-md  font-medium ${isActive ? `border-white text-white` : `hover:border-white   hover:text-white`}`}>Magazine</NavLink>
+                                <NavLink to="/contact" className={({ isActive }) => `text-gray-300 links border-b-4  border-slate-800   px-3 py-2 rounded-md  font-medium ${isActive ? `border-white text-white` : `hover:border-white   hover:text-white`}`}>Contact Us</NavLink>
                             </div>
                         </div>
-                        <div className=' hidden sm:flex sm:space-x-4 sm:text-xl sm:items-center'>
+                        {/* <div className=' hidden sm:flex sm:space-x-4 sm:text-xl sm:items-center'>
                             <NavLink to="/contact" className={({ isActive }) => `text-gray-300 links border-b-4  border-slate-800   px-3 py-2 rounded-md  font-medium ${isActive ? `border-white text-white` : `hover:border-white   hover:text-white`}`}>Contact Us</NavLink>
 
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>
