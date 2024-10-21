@@ -2,7 +2,9 @@ import React, { useEffect } from 'react'
 import Aos from 'aos'
 import Card from '../Components/Cards/Card'
 import '../index.css';
-import eventHorizon  from '../Components/EventImages/Screenshot 2024-10-21 020338.png'
+import eventHorizon from '../Components/EventImages/Screenshot 2024-10-21 020338.png'
+import event2 from '../Components/EventImages/event1.png'
+import iv from '../Components/EventImages/iv.png'
 
 
 function Event() {
@@ -27,7 +29,7 @@ function Event() {
 
           </span>
           <span data-aos="fade-down" className=''>
-            <Card title={"Industrial Visit"} description={"An Industrial Visit organised by DJS NOVA for star gazing at Naneghat"} image={null} date={"Coming Soon!"} label={"Coming soon"} link={""}/>
+            <Card title={"Industrial Visit"} description={"An Industrial Visit organised by DJS NOVA for star gazing at Naneghat"} image={iv} date={"Coming Soon!"} label={"Coming soon"} link={""} />
           </span>
         </div>
         {/* events in 2023-24 */}
@@ -37,14 +39,13 @@ function Event() {
         </h1>
         <div className='flex sm:flex-row flex-col items-center justify-center'>
           <span data-aos="fade-down">
-            <Card />
+            <Card title={"Event Horizon 1.0"} description={"A Flagship Event of the DJS NOVA that includes buzzer Round, Treasure round and alot more."} image={event2} date={"Event Concluded!"} label={"Register Now!"} link={"https://forms.gle/FyCYLT8VeALh1ppo7"} />
           </span>
           <span data-aos="fade-down">
-            <Card />
+            <Card title={"Industrial Visit"} description={"An Industrial Visit organised by DJS NOVA for star gazing at Naneghat"} image={iv} date={"Successfully Concluded!"} label={"View"} link={""} />
           </span>
         </div>
       </div>
-      
     </>
   )
 }

@@ -7,6 +7,10 @@ import { Pagination, Navigation } from 'swiper/modules';
 import slide1 from './slide1.png'
 import slide2 from './slide2.png'
 import slide3 from './slide3.png'
+import slide4 from './slide4.png'
+import  slide5 from './slide5.png'
+
+
 import './CarouselSlider.css' // Import external CSS file for custom styles
 
 const CarouselSwiper = () => {
@@ -28,6 +32,12 @@ const CarouselSwiper = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                     <img src={slide3} alt="Slide 4" className="swiper-slide-image" />
+                </SwiperSlide>
+                <SwiperSlide>
+                    <img src={slide4} alt="Slide 4" className="swiper-slide-image" />
+                </SwiperSlide>
+                <SwiperSlide>
+                    <img src={slide5} alt="Slide 4" className="swiper-slide-image" />
                 </SwiperSlide>
             </Swiper>
         </div>
