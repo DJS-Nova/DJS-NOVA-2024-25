@@ -29,7 +29,7 @@ function Event() {
 
           </span>
           <span data-aos="fade-down" className=''>
-            <Card title={"Industrial Visit"} description={"An Industrial Visit organised by DJS NOVA for star gazing at Naneghat"} image={iv} date={"Coming Soon!"} label={"Coming soon"} link={""} />
+            <Card title={"Informative Visit"} description={"An Informative Visit organised by DJS NOVA for star gazing at Naneghat"} image={iv} date={"Coming Soon!"} label={"Coming soon"} link={""} />
           </span>
         </div>
         {/* events in 2023-24 */}
@@ -39,10 +39,10 @@ function Event() {
         </h1>
         <div className='flex sm:flex-row flex-col items-center justify-center'>
           <span data-aos="fade-down">
-            <Card title={"Event Horizon 1.0"} description={"A Flagship Event of the DJS NOVA that includes buzzer Round, Treasure round and alot more."} image={event2} date={"Event Concluded!"} label={"Register Now!"} link={"https://forms.gle/FyCYLT8VeALh1ppo7"} />
+            <Card title={"Event Horizon 1.0"} description={"A Flagship Event of the DJS NOVA that includes buzzer Round, Treasure round and alot more."} image={event2} date={"Event Concluded!"} label={"View"} link={"https://forms.gle/FyCYLT8VeALh1ppo7"} />
           </span>
           <span data-aos="fade-down">
-            <Card title={"Industrial Visit"} description={"An Industrial Visit organised by DJS NOVA for star gazing at Naneghat"} image={iv} date={"Successfully Concluded!"} label={"View"} link={""} />
+            <Card title={"Informative Visit"} description={"An Informative Visit organised by DJS NOVA for star gazing at Naneghat"} image={iv} date={"Successfully Concluded!"} label={"View"} link={""} />
           </span>
         </div>
       </div>

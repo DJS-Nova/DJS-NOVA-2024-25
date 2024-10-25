@@ -22,7 +22,7 @@ function Hero() {
         AOS.init({ duration: 1000 })
     }, [])
     return (
-        <div className='bgcolor min-h-max  w-full z-0' id='Home'>
+        <div className='bgcolor min-h-min  w-full z-0' id='Home'>
             <Bg/>
             <div className='block sm:flex'>
                 <div className='w-100 sm:w-1/2 min-h-screen flex items-start justify-center sm:mt-28 flex-wrap ' >
